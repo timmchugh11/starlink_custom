@@ -1,0 +1,12 @@
+{
+  "domain": "starlink",
+  "name": "Starlink Custom",
+  "version": "0.1.0",
+  "codeowners": [],
+  "config_flow": true,
+  "after_dependencies": ["http"],
+  "documentation": "https://www.home-assistant.io/integrations/starlink",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": ["starlink-grpc-core==1.2.5"]
+}
